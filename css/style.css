@@ -1,0 +1,307 @@
+body{
+	/*height: 4000px;*/
+}
+
+/*Start Navbar*/
+.header{
+	position: relative;
+	background-image: url("../images/banner.jpg");
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	height: 751px;
+}
+.overlayer{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top:0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.45);
+};
+.navbar{padding: 0}
+.navbar-brand h1{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.navbar-brand span{
+	color:#22c1c1
+}
+.navbar-nav li{
+	font-weight: bold;
+	text-transform: uppercase;
+	padding:20px;
+}
+.nav-item.active,
+.navbar-nav li:hover{
+	border-top: 4px solid #22c1c1;
+}
+/*End Navbar*/
+/*Start the banner*/
+.banner{
+	color:#FFF;
+	padding-top:160px;
+}
+.banner h1{
+	padding: 0;
+	margin: 0;
+	margin-bottom:15px;
+	font-size: 150px;
+}
+.banner h3{padding: 0;	margin: 0 }
+.banner p{font-size: 1.35rem}
+.bt{
+	margin-top:40px;
+	width: 200px;
+	border-radius: 20px;
+	background-color: #22c1c1
+}
+/*end the banner*/
+/*Start Our Service*/
+.head-service{
+	padding-top:100px
+}
+.head-service h1{
+	font-size: 70px;
+}
+.head-service h3{
+	font-size:  2rem
+}
+.all-box{
+	margin-top: 100px;
+}
+.box .colors{
+	color: #22c1c1
+}
+.box .box-head{
+	margin-bottom: 50px;
+}
+.box .box-head h2{
+	margin:0;
+	padding:0;
+	margin-bottom: 40px 
+}
+.box .box-head p{
+	font-size: 18px;
+}
+.box-head .image{
+	width: 100%;
+	height: 80% 
+}
+/*End Our service*/
+/*Start Our Ready*/
+.ready{
+	position: relative;
+	background-image: url('../images/ourready.jpg');
+	color: #FFF;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	height: 600px;
+}
+.our-ready{
+	padding-top: 150px;
+}
+.readylayer{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.5);
+}
+.our-ready h1{
+	margin:0;
+	padding: 0;
+	margin-bottom: 20px;
+	font-size: 70px;
+}
+.our-ready p{
+	font-size: 30px;
+	line-height: 2
+}
+.bt1,
+.bt2{
+	border-radius: 20px;
+	font-size: 20px;
+	margin-top: 40px; 
+
+}
+.bt1{
+	width: 100px;
+	margin-right: 15px;
+	background-color: #22c1c1
+}
+.bt2{
+	width:200px;
+	background-color: transparent;
+	border-color: #ccc
+}
+/*End Our Ready*/
+/*Start Our Questions*/
+.question{
+	height: 700px;
+	color: #FFF;
+	position: relative;
+	background-image: url("../images/question.jpg");
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+
+}
+.our-quest{
+	margin-top: 150px;
+}
+.our-quest h1{
+	margin: 0;
+	padding: 0;
+	font-size: 65px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+.our-quest button{
+	margin-top: 20px;
+	border-radius: 20px;
+	font-size: 20px;
+	width: 200px;
+	background-color: #22c1c1
+}
+/*End Our Questions*/
+/*Start Percentage*/
+.percentage{
+	height: 500px;
+	color: #FFF;
+	background-image: url("../images/percent.jpg");
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+
+}
+.our-percent{
+	padding-top: 150px;
+}
+.our-percent h1 {
+	font-size: 60px;
+	font-weight: bold;
+}
+.progress{
+	width: 80%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 120px;
+	margin-right: 40px;
+}
+/*End Percentage*/
+/*Start Our team*/
+.team{
+	padding-top: 50px;
+	padding-bottom:50px;
+}
+.team .h1{
+	padding: 0;
+	margin: 0;
+	/*padding-top:50px;*/
+	font-weight: bold;
+	font-size: 55px;
+}
+.team .p2:first-of-type{
+	margin-top: 10px;
+	font-weight: unset;
+	font-size: 30px;
+}
+.imag{
+	position: relative;
+	margin-top:30px;
+}
+.teamlayer{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.5);
+	display: none;
+}
+.teamlayer i{
+	margin-top: 170px;
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+	background-color: #202734;
+	color: #FFF;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.team img{
+	width: 350px;
+	height: 350px;
+}
+.team .names{
+	margin-top: 15px;
+	font-size: 30px;
+} 
+.team .disct{
+	font-size: 20px;
+}
+
+/*End Our team*/
+/* Start Our Portofolio*/
+.portofolio{
+	background-color: #ebebeb;
+}
+.portofolio .our-porto{
+	padding-top: 50px;
+}
+.portofolio .our-porto h1{
+	margin: 0;
+	padding: 0;
+	margin-bottom:20px;
+	font-weight: bold
+ 	font-size: 55px;
+}
+.portofolio .our-porto h2{
+	font-size: 25px;
+		margin: 0;
+	padding: 0;
+	margin-bottom:20px;
+}
+.portofolio .our-porto p{
+	font-size: 20px;
+
+}
+.portofolio .imag .teamlayer h1{
+	color: #FFF;
+	margin:0;
+	padding: 0;
+	margin-top: 40%;
+	margin-bottom: 30%;
+}
+.portofolio .imag{
+	margin-bottom: 40px;
+}
+.portofolio .imag img{
+	width: 350px;
+	height: 350px;
+}
+.portofolio .load{ height: 170px; }
+.portofolio .loadbtn{
+	background-color: #22c1c1;
+	font-weight: bold;
+	text-transform: uppercase;
+	width: 150px;
+	height: 50px;
+	border-radius: 50px;
+	margin-top: 20px;
+	margin-bottom: 60px;
+}
+.portofolio .load .copy {
+	height: 25px;
+}
+/*End Our portofolio*/
+
